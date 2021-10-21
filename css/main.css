@@ -88,50 +88,56 @@ textarea {
    ========================================================================== */
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  background-color: black;
+  width: 90%;
+  font-family: Verdana;
   text-align: center;
+  background-color: black;
 }
-}
-header, 
-footer {
+header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: black;
 }
 h1 {
-font-size: 50px;
-color: #fff;
-text-align: center;
+  font-size: 46px;  
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
 }
 h2 {
   font-family: Verdana;
   font-size: 42;
+  font-weight: 500;
+  color: #fff;
 }
-h3 {
-
+h3 p {
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
+  
 }
-span {
+h5 span {
   color: aquamarine;
   font-size: 16;
   text-decoration: underline;
+  text-align: center;
 }
-.content-wrapper {
-  width: 90%;
+.container-wrapper {
+  width: 100%;
   margin: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 .hidden-places {
   width: 100%;
 }
 .travel-guide {
+  width: 100%; 
+}
+figure img {
   width: 100%;
 }
 .coming-soon {
@@ -139,8 +145,12 @@ span {
 }
 .fontawesome-icon {
   width: 100%;
+  color: white;
 }
-.copyright {
+footer .copyright {
+  display: flex;
+  justify-content: right;
+  align-items: right;
   text-align: right;
   color: gray;
 }
